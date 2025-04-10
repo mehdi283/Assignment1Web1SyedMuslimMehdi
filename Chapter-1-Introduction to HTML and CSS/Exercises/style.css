@@ -1,0 +1,35 @@
+body{
+
+    font-style: sans-serif;
+    background-color: #fdf1f1;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+    color: rgb(87, 14, 14);
+}
+
+
+
+h1{
+color: white;
+background-color: #b91c1c;
+padding: 30px;
+font-size: 3.0em;
+border-radius: 50px;
+box-shadow: 0 4px 8px #b91c1c;
+}
+
+
+
+
+p{
+ font-size: 1.2em;
+ line-height: 1.4;
+ background-color: #ecbd5f;
+ color: black;
+ padding: 10px;
+ border-radius: 50px;
+ box-shadow: 0 5px 10px #ecbd5f;
+}
+
+
