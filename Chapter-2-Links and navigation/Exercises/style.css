@@ -50,3 +50,49 @@ body{
         color: red;
     
     }
+
+    
+
+header{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    position: relative;
+    
+    
+    }
+    
+    header .overlay {
+     background-color:rgba(red, green, blue, alpha) ;
+     padding: 20px;
+     width: 80%;
+     max-width: 700px;
+     border-radius: px;
+    
+    }
+    
+    header h1{
+    font-size: 3em;
+    margin-bottom: 10px;
+    
+    
+    }
+    
+    
+    header p {
+    
+        font-size: 1.0em;
+    }
+    
+    .btn{
+    display: inline-block;
+    background-color: red;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+    
+    }
