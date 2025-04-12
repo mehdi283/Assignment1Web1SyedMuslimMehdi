@@ -96,3 +96,39 @@ header{
     transition: background-color 0.3s;
     
     }
+
+
+    
+
+.btn:hover{
+
+
+    background-color: darkred;
+}
+
+
+section{
+
+padding: 30px;
+background-color: #222222;
+border-radius: 5px;
+margin: 20px;
+}
+
+
+h2{
+
+    color: red;
+}
+
+
+
+footer{
+text-align: center;
+background-color: #1111;
+color: grey;
+padding: 20px;
+
+}
+
+
