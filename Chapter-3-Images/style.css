@@ -27,13 +27,50 @@ body {
   }
 
   #A {
+    box-shadow: 15px 20px 20px rgb(228, 2, 2);
     border: 5px solid purple;
-    box-shadow: 15px 15px 20px red;
+    
+
   }
   
   
   #B {
-    border: 5px solid limegreen;
-    box-shadow: inset 15px 15px 20px rgba(0, 0, 0, 0.6);
+    border: 7px solid rgb(36, 134, 36);
+    box-shadow: inset15px 20px 20px rgba(0, 0, 0, 0.6);
+    margin: 0%;
   }
   
+
+  
+
+  #C {
+    border: 8px solid orange;
+    box-shadow:
+      0 0 0 10px rgb(2, 2, 228),
+      0 0 0 20px rgb(202, 0, 0),
+      0 0 0 30px rgb(0, 148, 0);
+    border-radius: 25px;
+  }
+  
+  
+  #D {
+    border: 5px solid brown;
+    position: relative;
+  }
+  
+  #D .blur-text {
+    color: black;
+    font-size: 16px;
+    text-shadow: 2px 3px 2px black;
+    filter: blur(30px);
+  }
+  
+
+  footer{
+    text-align: center;
+    background-color: #02020211;
+    color: rgb(109, 109, 109);
+    padding: 20px;
+    
+
+  }
