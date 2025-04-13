@@ -25,4 +25,15 @@ body {
     padding: 5%;
 
   }
+
+  #A {
+    border: 5px solid purple;
+    box-shadow: 15px 15px 20px red;
+  }
+  
+  
+  #B {
+    border: 5px solid limegreen;
+    box-shadow: inset 15px 15px 20px rgba(0, 0, 0, 0.6);
+  }
   
