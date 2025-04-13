@@ -2,34 +2,35 @@ body {
     font-family: Arial, sans-serif;
     padding: 20px;
     background: #000000;
-    text-align: center;
     margin: 5px;
   }
 
   .image-container {
     display: inline-block;
-    padding: 20px;
-    margin: 20px;
-    height: 250px;
-    width: 250px;
+    vertical-align: top;
+    padding: 30px;
+    margin: 35px;
+    height: 270px;
+    width: 270px;
    background-color: rgb(255, 255, 255);
     vertical-align: top;
   }
 
   
   .style-img {
-    width: 100%;
-    height: auto;
-    max-height: 150px;
     margin: 1%;
     padding: 5%;
+    width: 90%;
+    height: auto;
+    max-height: 150px;
+    
 
   }
 
   #A {
     box-shadow: 15px 20px 20px rgb(228, 2, 2);
     border: 5px solid purple;
-    
+    text-align: left;
 
   }
   
@@ -38,6 +39,7 @@ body {
     border: 7px solid rgb(36, 134, 36);
     box-shadow: inset15px 20px 20px rgba(0, 0, 0, 0.6);
     margin: 0%;
+    text-align: center;
   }
   
 
@@ -50,12 +52,14 @@ body {
       0 0 0 20px rgb(202, 0, 0),
       0 0 0 30px rgb(0, 148, 0);
     border-radius: 25px;
+    text-align: justify;
   }
   
   
   #D {
     border: 5px solid brown;
     position: relative;
+    text-align: right;
   }
   
   #D .blur-text {
@@ -65,12 +69,8 @@ body {
     filter: blur(30px);
   }
   
+h4{
 
-  footer{
-    text-align: center;
-    background-color: #02020211;
-    color: rgb(109, 109, 109);
-    padding: 20px;
-    
-
-  }
+  color: azure;
+  text-align: left;
+}
