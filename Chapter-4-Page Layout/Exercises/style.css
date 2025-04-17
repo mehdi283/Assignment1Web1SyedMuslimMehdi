@@ -1,0 +1,125 @@
+/* Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+  }
+  
+  body {
+    font-family: Arial, sans-serif;
+    background-color: #fff;
+    line-height: 1.6;
+  }
+  
+  /* Header */
+  header {
+    background-color: #17072b;
+    color: white;
+    text-align: center;
+    padding: 40px 10px;
+  }
+  
+  header h1 {
+    font-family: Tahoma, sans-serif;
+    font-size: 36px;
+    text-decoration: underline;
+  }
+  
+  /* Navigation */
+  nav {
+    background-color: #17072b;
+    padding: 15px 0;
+  }
+  
+  nav ul {
+    display: flex;
+    justify-content: center;
+    list-style: none;
+    gap: 30px;
+  }
+  
+  nav a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    font-weight: bold;
+  }
+  
+  nav a:hover {
+    text-decoration: underline;
+  }
+  
+  /* Main Layout */
+  .container {
+    display: flex;
+    padding: 30px;
+    gap: 30px;
+    flex-wrap: wrap;
+  }
+  
+  /* Left Main Section */
+  .main-section {
+    flex: 3;
+  }
+  
+  .main-section h2 {
+    font-size: 24px;
+    margin-bottom: 15px;
+    font-family: Tahoma, sans-serif;
+  }
+  
+  .main-section p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+  
+  /* Image Placeholder - adjusted height */
+  .image-placeholder {
+    width: 100%;
+    height: 140px; /* reduced from 200px */
+    background-color: #eee;
+    border: 2px dashed #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #555;
+    font-style: italic;
+    border-radius: 8px;
+  }
+  
+  /* Right Panel */
+  .side-panel {
+    flex: 1;
+    background-color: #0d1d4b;
+    color: white;
+    padding: 20px;
+    border-radius: 8px;
+    max-height: 300px; /* limits height */
+    overflow-y: auto; /* scrolls if content is too tall */
+  }
+  
+  .side-panel h2 {
+    font-size: 20px;
+    margin-bottom: 15px;
+    font-family: Tahoma, sans-serif;
+  }
+  
+  .side-panel ul {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .side-panel li {
+    margin-bottom: 10px;
+  }
+  
+  /* Footer */
+  footer {
+    background-color: #8c15e9;
+    color: white;
+    text-align: center;
+    padding: 15px;
+    font-size: 14px;
+    margin-top: 30px;
+  }
+  
