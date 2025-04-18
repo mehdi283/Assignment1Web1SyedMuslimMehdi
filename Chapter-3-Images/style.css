@@ -5,6 +5,23 @@ body {
     margin: 5px;
   }
 
+  h3{
+    color: white;
+    text-align: left;
+
+
+  }
+
+
+
+  h1{
+
+    color: white;
+    text-align: center;
+  }
+
+
+
   .image-container {
     display: inline-block;
     vertical-align: top;
@@ -71,6 +88,6 @@ body {
   
 h4{
 
-  color: azure;
+  color: white;
   text-align: left;
 }
