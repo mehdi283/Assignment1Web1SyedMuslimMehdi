@@ -1,0 +1,40 @@
+body{
+  background-color:  #fff;
+  font-family:Arial, sans-serif ;
+  line-height: 1.4;
+}
+
+
+header{
+color: white;
+background-color: #17072b;
+text-align: center;
+padding: 50px 20px;
+
+}
+
+
+header h1{
+font-size: 40px;
+font-family: Tahoma , sans-serif;
+text-decoration: underline;
+}
+
+
+
+nav{
+background-color: #8c15e9;
+padding: 20px;
+}
+
+
+nav ul {
+display: inline-block;
+justify-content: center;
+gap:40px
+}
+
+
+nav a{
+  
+}
