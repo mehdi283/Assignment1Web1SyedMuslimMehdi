@@ -89,3 +89,11 @@ margin-bottom: 23px;
 font-size: 20px;
 }
 
+
+.Images img {
+  width: 120%;
+  max-height: 220px;
+  object-fit: cover;
+  border-radius: 12px;
+  margin-top: 20px;
+}
