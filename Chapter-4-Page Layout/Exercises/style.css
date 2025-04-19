@@ -1,139 +1,28 @@
-body{
-  background-color:  #fff;
-  font-family:Arial, sans-serif ;
-  line-height: 1.4;
-}
+  /*Body styling sets font styke, background color, color, line-height */
+body {
+  font-family: Arial, sans-serif;
+  background: #f9f9;
+  color: #333;
+  padding: 8px;
+  line-height: 1.5;
+  }
 
+  /*For header section to desgin and color them*/
 
 header{
-color: white;
 background-color: #17072b;
+color: white;
 text-align: center;
-padding: 20px 20px;
-
+padding: 15px;
 }
 
 
-header h1{
-font-size: 40px;
-font-family: Tahoma , sans-serif;
-text-decoration: underline;
-}
-
-
+/*Navigation bars styling*/
 
 nav{
-background-color: #8c15e9;
+background-color: #3949ab;
+text-align: center;
 padding: 5px;
 }
 
 
-nav ul {
-display: inline-block;
-justify-content: center;
-gap: 20px;
-}
-
-
-
-nav a{
-font-size: 21px;
-color: white;
-font-weight: bold;
-}
-
-
-nav a:hover{
-text-decoration: underline;
-}
-
-
-.container{
-display: flex;
-padding: 35px;
-gap: 30px;
-flex-wrap: wrap;
-}
-
-
-
-.main {
-flex: 5;
-}
-
-
-
-.main h2 {
-font-family: Tahoma, sans-serif;
-margin-bottom: 18px;
-font-size: 27px;
-}
-
-.main h3 {
-font-family: Tahoma, sans-serif;
-margin-bottom: 18px;
-font-size: 27px;
-}
-  
-
-
-
-.main p{
-margin-bottom: 23px;
-font-size: 20px;
-}
-
-
-.main ol {
-margin-bottom: 23px;
-font-size: 20px;
-}
-
-
-.Images img {
-width: 120%;
-object-fit: cover;
-max-height: 220px;
-border-radius: 15px;
-margin-top: 22px;
-}
-
-
-.side-panel{
-background-color: #172d67;
-color: white;
-padding: 10px;
-border-radius: 10px;
-max-height: 250px;
-overflow-y: auto;
-}
-
-
-.side-panel ul{
-padding-left: 0px;
-list-style-type: none;
-}
-
-
-
-.side-panel li{
-margin-bottom: 12px;
-}
-
-
-
-#contact{
-text-align: center;
-padding: 35px;
-background-color: #fff;
-}
-
-
-footer {
-  background-color: #8c15e9;
-  text-align: center;
-  color: white;
-  padding: 15px;
-  font-size: 15px;
-  margin-top: 25px;
-}
