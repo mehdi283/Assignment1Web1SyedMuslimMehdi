@@ -20,7 +20,7 @@ padding: 15px;
 /*Navigation bars styling*/
 
 nav{
-background-color: #3949ab;
+background-color: #5060c7;
 text-align: center;
 padding: 5px;
 }
@@ -52,7 +52,7 @@ nav a:hover{
 
 /*Main gridlayout for all three columns*/
 .grid-layout {
-margin: 15px 2;
+margin: 15px 5;
 display: flex;
 gap: 10px;
 flex-wrap: wrap;
@@ -63,10 +63,10 @@ justify-content: space-between;
 /*Design for All three column*/
 .column{
 min-width: 200px;
-background-color: white;
+background-color: rgba(255, 255, 255, 0.664);
 padding: 15px;
 border-radius: 5px;
-border: 1px solid #fff;
+border: 1px solid #a00f0f;
 flex: 1;
 }
 
@@ -80,7 +80,7 @@ color: white;
 padding: 12px 20px;
 border: none;
 border-radius: 5px;
-background-color: darkgrey ;
+background-color: rgb(5, 54, 99) ;
 }
 
 
@@ -89,3 +89,11 @@ background-color: #3f51bf;
 }
 
 
+
+/*Footer Styling*/
+footer{
+text-align: center;
+padding: 9px;
+background-color: #8c15e9;
+font-size: 13px;
+}
