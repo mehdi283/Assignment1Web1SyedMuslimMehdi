@@ -91,9 +91,49 @@ font-size: 20px;
 
 
 .Images img {
-  width: 120%;
-  max-height: 220px;
-  object-fit: cover;
-  border-radius: 12px;
-  margin-top: 20px;
+width: 120%;
+object-fit: cover;
+max-height: 220px;
+border-radius: 15px;
+margin-top: 22px;
+}
+
+
+.side-panel{
+background-color: #172d67;
+color: white;
+padding: 30px;
+border-radius: 10px;
+max-height: 320px;
+overflow-y: auto;
+}
+
+
+.side-panel ul{
+padding-left: 0px;
+list-style-type: none;
+}
+
+
+
+.side-panel li{
+margin-bottom: 12px;
+}
+
+
+
+#contact{
+text-align: center;
+padding: 35px;
+background-color: #fff;
+}
+
+
+footer {
+  background-color: #8c15e9;
+  text-align: center;
+  color: white;
+  padding: 15px;
+  font-size: 14px;
+  margin-top: 30px;
 }
