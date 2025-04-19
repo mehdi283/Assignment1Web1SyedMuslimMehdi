@@ -35,6 +35,57 @@ gap:40px
 }
 
 
+
 nav a{
-  
+font-size: 21px;
+color: white;
+font-weight: bold;
 }
+
+
+nav a:hover{
+text-decoration: underline;
+}
+
+
+.container{
+display: flex;
+padding: 35px;
+gap: 30px;
+flex-wrap: wrap;
+}
+
+
+
+.main {
+flex: 5;
+}
+
+
+
+.main h2 {
+font-family: Tahoma, sans-serif;
+margin-bottom: 18px;
+font-size: 27px;
+}
+
+.main h3 {
+font-family: Tahoma, sans-serif;
+margin-bottom: 18px;
+font-size: 27px;
+}
+  
+
+
+
+.main p{
+margin-bottom: 23px;
+font-size: 20px;
+}
+
+
+.main ol {
+margin-bottom: 23px;
+font-size: 20px;
+}
+
