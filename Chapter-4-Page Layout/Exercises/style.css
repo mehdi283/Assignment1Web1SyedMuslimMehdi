@@ -10,10 +10,10 @@ body {
   /*For header section to desgin and color them*/
 
 header{
-background-color: #17072b;
+background-color: #17072b; /*Add color to background*/
 color: white;
-text-align: center;
-padding: 15px;
+text-align: center; /*Put the whole text as per your requirment right, left, center.*/
+padding: 15px; 
 }
 
 
@@ -26,3 +26,19 @@ padding: 5px;
 }
 
 
+/*Navigation layout*/
+
+nav ul{
+list-style: none;    /*Removes bullet points*/
+justify-content: center;
+gap: 12px;    /*Put spaces between them*/
+display: flex;  
+}
+
+/*Navigation Links*/
+nav a{
+color: white;
+text-decoration: none;
+font-weight: bold;
+
+}
