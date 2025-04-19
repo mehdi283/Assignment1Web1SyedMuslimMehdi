@@ -71,3 +71,21 @@ flex: 1;
 }
 
 
+/*Styling to button*/
+.btn{
+display: inline-block;
+margin-top: 10px;
+cursor: pointer;
+color: white;
+padding: 12px 20px;
+border: none;
+border-radius: 5px;
+background-color: darkgrey ;
+}
+
+
+.btn:hover{
+background-color: #3f51bf;
+}
+
+
