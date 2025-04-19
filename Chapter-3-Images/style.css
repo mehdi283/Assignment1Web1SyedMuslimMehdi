@@ -1,7 +1,7 @@
 body {
     font-family: Arial, sans-serif;
     padding: 20px;
-    background: #000000;
+    background: #216966;
     margin: 5px;
   }
 
@@ -16,7 +16,7 @@ body {
 
   h1{
 
-    color: white;
+    color: rgb(255, 255, 255);
     text-align: center;
   }
 
@@ -25,21 +25,21 @@ body {
   .image-container {
     display: inline-block;
     vertical-align: top;
-    padding: 30px;
-    margin: 35px;
-    height: 270px;
-    width: 270px;
+    padding: 25px;
+    margin: 30px;
+    height: 250px;
+    width: 250px;
    background-color: rgb(255, 255, 255);
     vertical-align: top;
   }
 
   
   .style-img {
-    margin: 1%;
+    margin: 1px;
     padding: 5%;
-    width: 90%;
+    width: 85%;
     height: auto;
-    max-height: 150px;
+    max-height: 200px;
     
 
   }
@@ -91,3 +91,4 @@ h4{
   color: white;
   text-align: left;
 }
+
