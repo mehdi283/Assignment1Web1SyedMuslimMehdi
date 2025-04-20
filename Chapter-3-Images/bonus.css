@@ -10,11 +10,8 @@ body {
   margin-right: auto;
 }
 
-/* div#A: Purple border + red drop shadow (right and bottom) */
 /* div#A Purple color and red shadow */
 #A {
-  border: 4px solid purple;
-  box-shadow: 10px 10px 20px red;
   border: 5px solid purple;
   box-shadow: 15px 20px 20px red;
   padding: 90px;
