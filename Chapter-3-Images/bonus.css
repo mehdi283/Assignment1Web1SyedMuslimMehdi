@@ -74,6 +74,12 @@ figure img {
 }
 
 
+figure:hover{
+  filter: brightness(100%) contrast(115%) saturate(90%);
+  transform: scale(1.1); 
+  }
+
+
 
 /*Styling figcaption*/
 figcaption {
