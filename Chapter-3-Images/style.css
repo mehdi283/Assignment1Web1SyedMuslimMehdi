@@ -1,93 +1,60 @@
 body {
-    font-family: Arial, sans-serif;
-    padding: 20px;
-    background: #d34343;
-    margin: 5px;
-  }
+  font-family: Arial, sans-serif; 
+  text-align: center; 
+  background-color: rgb(201, 128, 223);
 
-  h1{
-
-    color: rgb(255, 255, 255);
-    text-align: center;
-    text-decoration: underline;
-  }
-
-  figcaption{
-  padding: 10px;
-  font-size: 13px;
-  color: black;
-  background-color: rgb(255, 255, 255); 
-  border-top: 2px solid #000000; 
-  }
-
-
-  .image-container {
-    display: inline-block;
-    vertical-align: top;
-    padding: 25px;
-    margin: 30px;
-    height: 250px;
-    width: 250px;
-   background-color: rgb(255, 255, 255);
-    vertical-align: top;
-  }
-
-  
-  .style-img {
-    margin: 1px;
-    padding: 5%;
-    width: 85%;
-    height: auto;
-    max-height: 200px;
-    
-
-  }
-
-  #A {
-    box-shadow: 15px 20px 20px rgb(228, 2, 2);
-    border: 5px solid purple;
-    text-align: left;
-
-  }
-  
-  
-  #B {
-    border: 7px solid rgb(36, 134, 36);
-    box-shadow: inset15px 20px 20px rgba(0, 0, 0, 0.6);
-    margin: 0%;
-    text-align: center;
-  }
-  
-
-  
-
-  #C {
-    border: 8px solid orange;
-    box-shadow:
-      0 0 0 10px rgb(2, 2, 228),
-      0 0 0 20px rgb(202, 0, 0),
-      0 0 0 30px rgb(0, 148, 0);
-    border-radius: 25px;
-    text-align: justify;
-  }
-  
-  
-  #D {
-    border: 5px solid brown;
-    position: relative;
-    text-align: right;
-  }
-  
-  #D .blur-text {
-    color: black;
-    font-size: 16px;
-    text-shadow: 2px 3px 2px black;
-    filter: blur(30px);
-  }
-  
-h4{
-
-  color: white;
-  text-align: left;
 }
 
+h1{
+text-align: center;
+line-height: normal;
+padding: 15px;
+text-decoration: underline;
+font-size: 40px;
+}
+
+h2{
+font-size: 25px;
+}
+
+
+
+.image-container {
+  display: flex; 
+  justify-content: center; 
+  gap: 20px; 
+  padding: 20px;
+}
+
+figure {
+  background-color: rgb(202, 161, 161); 
+  border-radius: 20px; 
+  box-shadow: 10 20px 15px rgb(0, 0, 0); 
+  overflow: hidden;
+  max-width:300px; 
+}
+
+figure:hover {
+  transform: scale(1.2); 
+  filter: brightness(100%) contrast(110%) saturate(100%);
+  
+}
+
+
+img {
+  width: 100%; 
+  height: auto; 
+  filter: brightness(100%) contrast(110%) saturate(100%);
+  
+
+}
+
+
+
+figcaption {
+  padding: 8px;
+  font-size: 14px; 
+  color: #000000;
+  background-color: rgb(233, 159, 159); 
+  border-top: 2px solid #16656b; 
+}
