@@ -1,0 +1,57 @@
+
+
+ 
+/*General body Styling*/
+body {
+  display: flex;
+  justify-content: left;
+  align-items: left;
+  gap: 1px;
+  padding: 60px;
+  background-color: white;
+  font-family: Arial, sans-serif;
+  margin-right: auto;
+  }
+  
+  
+  /* div#A Purple color and red shadow */
+  #A{
+  box-shadow: 15px 20px 20px red;
+  border: 5px solid purple;
+  padding: 90px;
+  margin: 90px;
+  }
+  
+  
+  /* div#B Lime color Solid border */
+  #B{
+  box-shadow: inset 10px 12px 40px rgba(0, 0, 0, 0.8); 
+  border: 5px solid lime;
+  padding: 90px;
+  margin: 90px;
+  }
+  
+  
+  /* div#C:Orange Color border with layout of (blue, red, green) */
+  #C {
+  padding: 90px;
+  margin: 90px;
+  border-radius: 30px;
+  border: 5px solid orange;
+  box-shadow:
+  0 0 0 10px blue,
+  0 0 0 20px red,
+  0 0 0 30px green;
+  }
+  
+  
+  /* div#D: Brown Solid border black shadow*/
+  #D{
+  color: black;
+  text-shadow: 5px 8px 0.5px black;
+  border: 5px solid brown;
+  filter: blur(0.6px);
+  padding: 90px;
+  margin: 90px;
+  gap: 1px;
+  }
