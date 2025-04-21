@@ -93,7 +93,10 @@ background-color: #3f51bf;
 /*Footer Styling*/
 footer{
 text-align: center;
+color: black;
 padding: 9px;
 background-color: #8c15e9;
 font-size: 13px;
+margin-top: 133px;
+
 }
