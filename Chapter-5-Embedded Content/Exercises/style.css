@@ -1,7 +1,7 @@
 body{
 justify-content: center;
 margin: 0px;
-height: 50vh;
+height: 70vh;
 background-color: #ffffff;
 display: flex;
 padding: 250px;
@@ -10,7 +10,7 @@ background-color: black;
 
 
 video{
-max-width: 50%;
+max-width: 70%;
 height: auto;
 margin-bottom: 0%;
 
