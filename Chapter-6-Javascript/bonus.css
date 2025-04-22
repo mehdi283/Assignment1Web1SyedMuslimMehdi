@@ -1,0 +1,143 @@
+/* Desiging the body */
+body {
+    font-family: 'Orbitron', sans-serif; 
+    background: radial-gradient(circle, #0f0f0f, #000000); 
+    color: #ffffff; 
+    display: flex; 
+    justify-content: center;
+    align-items: center;
+    height: 100vh; 
+    margin: 0;
+    overflow: hidden; 
+  }
+  
+  
+
+
+ /*  Cloud title styling */
+    .cloud-title span:nth-child(1) { color: #ff0055; } /* Red */
+    .cloud-title span:nth-child(2) { color: #00ff88; } /* Green */
+    .cloud-title span:nth-child(3) { color: #4488ff; } /* Blue */
+  
+  /*  The main game box styling */
+  .game-container {
+     box-shadow: 0 0 20px rgba(0, 255, 255, 0.3);
+    backdrop-filter: blur(10px); 
+   border: 1px solid #00f2ff;
+   
+    border-radius: 20px; 
+    padding: 40px;
+    width: 400px;
+    text-align: center;
+   background: rgba(255, 255, 255, 0.05);
+   
+  
+   /*  Animation to make cloud title slide down and appear when webpage opens */
+   @keyframes slideDown {
+    from {
+     
+      opacity: 0;
+  transform: translateY(-40px);
+    }
+    to {
+      
+      opacity: 1;
+  transform: translateY(0);
+    }
+  }
+
+
+    /* Animation of web*/
+   
+    opacity: 0;
+  animation: fadeInMain 1.8s ease forwards;
+    transform: translateY(50px);
+  }
+  
+  
+  /*  Fade-in Animation of container */
+  @keyframes fadeInMain {
+    to {
+  transform: translateY(0);
+      opacity: 2;
+    }
+  }
+  
+  
+  
+
+
+  /* Title Spacing*/
+.rainbow-title span:nth-child(n+4) {
+ 
+    margin-left: 8px;
+  color: white;
+  }
+  
+  
+  .cloud-title {
+   margin-bottom: 24px;
+    font-size: 29px;
+    
+    animation: slideDown 1.2s ease-in-out;
+  }
+  
+  
+ 
+  
+  
+/*  RGB color guessing design */
+#rgb-value {
+  
+    font-weight: bold;
+  font-size: 24px;
+  animation: fadeIn 1.4s ease-in 0.4s forwards;
+    opacity: 0;
+    
+    margin-bottom: 15px;
+  color: #00ffff; 
+    
+  }
+  
+  /*  Chances, score and lives */
+  #chances, #score, #report {
+    opacity: 0;
+    animation: fadeIn 1.5s ease-in 0.6s forwards;
+  }
+  
+  
+  
+  @keyframes fadeIn {
+    to {
+      opacity: 1;
+    }
+  }
+  
+  
+  .color-options {
+  justify-content: center;
+    display: flex;
+    
+  
+   
+    gap: 13px;
+   margin-bottom: 20px; 
+    opacity: 0;
+    animation: popUp 1.4s ease-in-out 0.9s forwards;
+  }
+  
+  /*  Pop-up animation for the color boxes*/
+  @keyframes popUp {
+    0% {
+      opacity: 0;
+      transform: scale(0.5);
+    }
+    100% {
+      opacity: 1;
+      transform: scale(1);
+    }
+  }
+  
+
+
+  
