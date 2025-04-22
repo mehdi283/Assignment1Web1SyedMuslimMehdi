@@ -1,0 +1,11 @@
+/*Styling of body*/
+body {
+background-color: #81eb50;
+font-family: Arial, sans-serif;
+margin: 5px;
+padding: 25px;
+align-items: center;
+justify-content: center;
+display: flex;
+height: 110vh;
+}
