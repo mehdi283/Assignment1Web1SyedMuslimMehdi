@@ -9,3 +9,78 @@ justify-content: center;
 display: flex;
 height: 110vh;
 }
+
+
+
+/* Main container Styling */
+.container {
+ padding: 50px;
+background-color:#81eb50;
+border-radius: 25px;
+box-shadow: 0 6px 22px rgb(202, 51, 25);
+max-width: 490px;
+width: 100%;
+}
+
+
+
+
+/* Styling the heading part */
+.container h1 {
+margin-bottom: 20px;
+text-align: center;
+}
+    
+/* Label Styling and Designing */
+label {
+margin-top: 30px;
+display: block;
+margin-bottom: 10px;
+}
+    
+/* Styling of Input*/
+input[type="number"] {
+padding: 15px;
+width: 100%;
+border: 3px solid #ccc;
+border-radius: 10px;
+font-size: 18px;
+transition: border-color 0.5s ease;
+}
+    
+/* Focus on effects of input */
+input:focus {
+outline: none;
+border-color: #192736;
+}
+
+
+/* Button Desiging and styling*/
+button {
+      
+width: 100%;
+padding: 15px;
+background-color: #d4390a;
+margin-top: 25px;
+cursor: pointer;
+border: none;
+border-radius: 8px;
+font-size: 18px;
+color: white;
+transition: background-color 0.5s ease;
+}
+    
+/* Button hover effect */
+button:hover {
+background-color: #0056b3;
+}
+    
+/* Total cost text */
+#totalCost {
+font-size: 18px;
+margin-top: 25px;
+font-weight: bold;
+color: #fdf8f8;
+text-align: center;
+}
+    
