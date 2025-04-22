@@ -7,7 +7,7 @@ const colorBoxes = [
   document.getElementById("color3"),
 ];
 
-const feedback = document.getElementById("report"); 
+const report = document.getElementById("Report"); 
 const livesDisplay = document.getElementById("lives"); 
 const scoreDisplay = document.getElementById("score"); 
 const replayBtn = document.getElementById("replay-btn"); 
@@ -18,7 +18,7 @@ let correctIndex;
 let lives = 3;
 let score = 0;
 
-//  Function to generate a random RGB color like "rgb(144, 92, 212)"
+//  Function to generate a random RGB color like "rgb(67, 9, 124)"
 function randomRGB() {
   return `rgb(${Math.floor(Math.random() * 256)}, ${Math.floor(
     Math.random() * 256
@@ -47,9 +47,64 @@ function setGame() {
     });
   
   
-    // Reset the report
-    report.textContent = "";
-    livesDisplay.textContent = `Lives: ${lives}`;
-    scoreDisplay.textContent = `Score: ${score}`;
-    replayBtn.style.display = "none"; 
-  }
+// Reset the report
+Report.textContent = "";
+livesDisplay.textContent = `Lives: ${lives}`;
+scoreDisplay.textContent = `Score: ${score}`;
+replayBtn.style.display = "none"; 
+}
+
+
+  
+colorBoxes.forEach((box, index) => {
+    box.addEventListener("click", () => {
+      if (index === correctIndex) {
+  
+        // right color
+        box.classList.add("correct");
+        Report.innerHTML = " Correct! Great job!";
+        score++; // Increase score
+        setTimeout(setGame, 1000); 
+      } else {
+  
+        //  Wrong color
+        box.classList.add("wrong");
+       Report.innerHTML = " Incorrect! Try again!";
+        lives--;
+        if (lives <= 0) {
+          //  If no lives left, end game
+          Report.innerHTML = " Game Over! Final Score: " + score;
+         
+          colorBoxes.forEach((b) => (b.style.pointerEvents = "none"));
+          replayBtn.style.display = "inline-block"; 
+        }
+      }
+
+
+      // Update the lives and score
+      livesDisplay.textContent = `Lives: ${lives}`;
+      scoreDisplay.textContent = `Score: ${score}`;
+    });
+  });
+  
+  
+  //  When replay button is clicked, restart everything 
+  replayBtn.addEventListener("click", () => {
+    lives = 3;
+    score = 0;
+    setGame();
+  });
+  
+  
+  //  Start the game when the page loads
+  setGame();
+
+
+
+
+
+
+
+
+
+
