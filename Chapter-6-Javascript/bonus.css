@@ -140,4 +140,91 @@ body {
   
 
 
+  /* color boxes */
+.color-box {
+
+    height: 62px;
+    width: 62px;  
+   cursor: pointer;
+    border-radius: 12px;
+    border: 2px solid #ccc;
+   
+    transition: box-shadow 0.3s ease;
+  }
+  
+  
+  
+  /*  Glow effect on boxes*/
+  .color-box:hover {
+    box-shadow: 0 0 16px rgba(255, 255, 255, 0.4);
+  }
+  
+  
+  
+  /*  Highlights the right answer */
+  .correct {
+    box-shadow: 0 0 10px #00ff00;
+  }
+  
+  /*  Highlight for wrong answer */
+  .wrong {
+    box-shadow: 0 0 10px #ff0000;
+  }
+  
+  /*  Report styleing */
+  #Report{
+    
+    font-size: 19px;
+    margin-bottom: 13px;
+  height: 32px;
+    transition: all 0.4s ease;
+  }
+  
+  /*  Score Designing */
+  #score {
+    color: #00ffcc;
+  
+    font-size: 18px;
+    
+    margin-bottom: 20px;
+  font-weight: bold;
+  }
+  
+  
+  
+  /*  Replay button style */
+  #replay-btn {
+    background: linear-gradient(90deg, #00f2ff, #00ff88);
+      padding: 13px 27px;
+   font-size: 16px;
+    font-weight: bold;
+  border-radius: 8px;
+    border: none;
+    cursor: pointer;
+  color: #000;
+  
+    display: none; 
+    
+    animation: slideUp 1.2s ease-in-out forwards;
+ 
+  }
+  
+  
+  /*  Slide-up animation */
+  @keyframes slideUp {
+    from {
+      opacity: 0;
+      transform: translateY(50px);
+    }
+    to {
+      opacity: 1;
+      transform: translateY(0);
+    }
+  }
+  
+  /*  Hover effect reply */
+  #replay-btn:hover {
+    background: linear-gradient(90deg, #00c4ff, #00ffaa);
+    transform: scale(1.05);
+  }
   
